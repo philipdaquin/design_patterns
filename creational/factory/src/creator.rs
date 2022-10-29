@@ -16,7 +16,7 @@ pub trait Dialog {
     fn create_button(&self) -> Box<dyn Button>;
 
     /**
-     *  The creator's primary responsibility isnt creting products
+     *  The creator's primary responsibility isnt creating products
      *  it contains some core business logic that relies in product objects returned 
      *  by the factory method
      * 

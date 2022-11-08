@@ -50,4 +50,7 @@ impl AudioPlayer {
     pub fn play(&mut self) { 
         self.current_track().cursor = 10;
     }
+    pub fn pause(&mut self) { 
+        self.current_track = 0;
+    }
 }

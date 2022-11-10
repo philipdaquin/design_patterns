@@ -44,11 +44,10 @@ impl AudioPlayer {
     pub fn next_track(&mut self) { 
         self.current_track = (self.current_track + 1) % self.playlist.len();
     }
-    pub fn current_track(&mut self) -> &mut AudioPlayer { 
-        self.playlist[self.current_track];
+    pub fn current_track(&mut self)  { 
     }
     pub fn play(&mut self) { 
-        self.current_track().cursor = 10;
+        
     }
     pub fn pause(&mut self) { 
         self.current_track = 0;

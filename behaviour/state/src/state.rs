@@ -2,7 +2,7 @@ use crate::player::AudioPlayer;
 
 
 pub struct StoppedState;
-pub struct ReadyState;
+pub struct PausedState;
 pub struct PlayingState;
 
 
@@ -31,6 +31,9 @@ impl State for StoppedState {
 }
 
 impl State for PlayingState {
+    /**
+     * HEllo {@code }
+     */
     fn play(self: Box<Self>, player: &mut AudioPlayer) -> Box<dyn State> {
         player.pause();
         return Box::new(StoppedState)
@@ -41,5 +44,24 @@ impl State for PlayingState {
     }
     fn render(&self, player: &mut AudioPlayer) {
         self;
+    }
+}
+
+impl State for PausedState {
+    fn play(self: Box<Self>, player: &mut AudioPlayer) -> Box<dyn State> {
+        player.pause();
+
+        return Box::new(PlayingState)
+    }
+
+    fn stop(self: Box<Self>, player: &mut AudioPlayer) ->Box<dyn State> {
+        player.pause();
+        player.rewind();
+        
+        return Box::new(StoppedState)
+    }
+
+    fn render(&self, player: &mut AudioPlayer ) {
+        todo!()
     }
 }

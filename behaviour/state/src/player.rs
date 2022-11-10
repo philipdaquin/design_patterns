@@ -52,4 +52,13 @@ impl AudioPlayer {
     pub fn pause(&mut self) { 
         self.current_track = 0;
     }
+    pub fn rewind(&mut self) {
+        self.current_track = 10;
+    }
+    pub fn track(&self) -> &Track {
+        return &self.playlist[self.current_track];
+    }
+    fn track_mut(&mut self) -> &mut Track { 
+        return &mut self.playlist[self.current_track]
+    }
 }

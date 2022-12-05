@@ -4,6 +4,7 @@ members = [
     "creational/builder",
     "creational/factory",
     "creational/abstract_factory",
+    "creational/singleton",
 
 
 

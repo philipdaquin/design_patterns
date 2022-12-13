@@ -38,7 +38,8 @@ public class WindowsButton implements Button {
     @Override
     public void onClick() {
         // TODO Auto-generated method stub
-        
+        button = new JButton("Exit");
+        System.out.println("Button!");
     }
     
 }

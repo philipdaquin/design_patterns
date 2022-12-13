@@ -615,3 +615,4 @@ WARNING: Unmatched cancel notification for request id 1646
 2022.12.13 21:10:38 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/App.java[0m
 2022.12.13 21:10:39 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/App.java[0m
 2022.12.13 21:10:43 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/App.java[0m
+2022.12.13 21:11:00 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/App.java[0m

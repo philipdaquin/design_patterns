@@ -1,0 +1,304 @@
+2022.12.13 19:58:11 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/philip/rust-programming/design_patterns/factory_java/.metals/lsp.trace.json or /home/philip/.cache/metals/lsp.trace.json[0m
+2022.12.13 19:58:12 INFO  logging to file /home/philip/rust-programming/design_patterns/factory_java/.metals/metals.log[0m
+2022.12.13 19:58:12 INFO  Started: Metals version 0.11.9 in workspace '/home/philip/rust-programming/design_patterns/factory_java' for client Visual Studio Code 1.74.0.[0m
+2022.12.13 19:58:15 INFO  time: initialize in 3.31s[0m
+2022.12.13 19:58:18 WARN  Build server is not auto-connectable.[0m
+2022.12.13 19:58:18 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/App.java[0m
+Dec 13, 2022 7:58:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2022.12.13 19:58:19 INFO  time: code lens generation in 1.03s[0m
+2022.12.13 19:59:40 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/factory/Dialog.java[0m
+2022.12.13 19:59:41 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/factory/Dialog.java[0m
+2022.12.13 19:59:53 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/factory/Dialog.java[0m
+Dec 13, 2022 7:59:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 37
+2022.12.13 19:59:56 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/factory/Dialog.java[0m
+2022.12.13 20:00:52 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/Button.java[0m
+2022.12.13 20:00:54 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/Button.java[0m
+2022.12.13 20:00:55 INFO  time: code lens generation in 1.15s[0m
+2022.12.13 20:01:01 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/Button.java[0m
+2022.12.13 20:01:10 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/Button.java[0m
+2022.12.13 20:01:12 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/Button.java[0m
+2022.12.13 20:01:13 INFO  time: code lens generation in 1.03s[0m
+2022.12.13 20:01:16 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/Button.java[0m
+2022.12.13 20:01:19 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/Button.java[0m
+2022.12.13 20:01:20 WARN  Running javac-semanticdb failed for file:///home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/Button.java. Output:
+/home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/Button.java:5: error: <identifier> expected
+    void 
+        ^
+/home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/Button.java:6: error: '(' expected
+}
+^
+2 errors[0m
+2022.12.13 20:01:22 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/Button.java[0m
+2022.12.13 20:01:32 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/Button.java[0m
+2022.12.13 20:01:38 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/HtmlButton.java[0m
+2022.12.13 20:01:40 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/HtmlButton.java[0m
+2022.12.13 20:01:46 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/HtmlButton.java[0m
+2022.12.13 20:01:50 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/HtmlButton.java[0m
+2022.12.13 20:01:56 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/HtmlButton.java[0m
+2022.12.13 20:02:02 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/HtmlButton.java[0m
+2022.12.13 20:02:04 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/HtmlButton.java[0m
+Dec 13, 2022 8:02:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 287
+2022.12.13 20:02:11 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/HtmlButton.java[0m
+2022.12.13 20:02:15 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/HtmlButton.java[0m
+2022.12.13 20:02:19 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/HtmlButton.java[0m
+2022.12.13 20:02:20 WARN  Cannot tokenize Java file file:///home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/HtmlButton.javaorg.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1564)
+	at scala.meta.internal.parsing.JavaTokens$.loop$1(JavaTokens.scala:71)
+	at scala.meta.internal.parsing.JavaTokens$.$anonfun$tokenize$1(JavaTokens.scala:75)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.parsing.JavaTokens$.tokenize(JavaTokens.scala:35)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:370)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:226)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:188)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:136)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChange(MetalsLanguageServer.scala:1244)
+	at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(null)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+[0m
+Dec 13, 2022 8:02:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+java.util.concurrent.CompletionException: org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1564)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.next$1(JavaFoldingRangeExtractor.scala:100)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:147)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:155)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:54)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:49)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$3(MetalsLanguageServer.scala:1760)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2022.12.13 20:02:20 WARN  Cannot tokenize Java file file:///home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/HtmlButton.javaorg.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1564)
+	at scala.meta.internal.parsing.JavaTokens$.loop$1(JavaTokens.scala:71)
+	at scala.meta.internal.parsing.JavaTokens$.$anonfun$tokenize$1(JavaTokens.scala:75)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.parsing.JavaTokens$.tokenize(JavaTokens.scala:35)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:370)
+	at scala.meta.internal.metals.Buffers.tokenEditDistance(Buffers.scala:30)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.codeLenses(RunTestCodeLens.scala:62)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$3(CodeLensProvider.scala:26)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$2(CodeLensProvider.scala:26)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:24)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$2(MetalsLanguageServer.scala:1744)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$1(MetalsLanguageServer.scala:1742)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+[0m
+2022.12.13 20:02:20 WARN  Cannot tokenize Java file file:///home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/HtmlButton.javaorg.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1564)
+	at scala.meta.internal.parsing.JavaTokens$.loop$1(JavaTokens.scala:71)
+	at scala.meta.internal.parsing.JavaTokens$.$anonfun$tokenize$1(JavaTokens.scala:75)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.parsing.JavaTokens$.tokenize(JavaTokens.scala:35)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:370)
+	at scala.meta.internal.metals.Buffers.tokenEditDistance(Buffers.scala:30)
+	at scala.meta.internal.metals.codelenses.SuperMethodCodeLens.codeLenses(SuperMethodCodeLens.scala:36)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$3(CodeLensProvider.scala:26)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$2(CodeLensProvider.scala:26)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:24)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$2(MetalsLanguageServer.scala:1744)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$1(MetalsLanguageServer.scala:1742)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+[0m
+2022.12.13 20:02:21 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/HtmlButton.java[0m
+2022.12.13 20:02:21 WARN  Running javac-semanticdb failed for file:///home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/HtmlButton.java. Output:
+/home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/HtmlButton.java:8: error: unclosed string literal
+        System.out.println("
+                           ^
+/home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/HtmlButton.java:9: error: unclosed string literal
+        ");
+        ^
+2 errors[0m
+2022.12.13 20:02:21 WARN  Cannot tokenize Java file file:///home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/HtmlButton.javaorg.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1564)
+	at scala.meta.internal.parsing.JavaTokens$.loop$1(JavaTokens.scala:71)
+	at scala.meta.internal.parsing.JavaTokens$.$anonfun$tokenize$1(JavaTokens.scala:75)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.parsing.JavaTokens$.tokenize(JavaTokens.scala:35)
+	at scala.meta.internal.parsing.TokenEditDistance$.$anonfun$apply$1(TokenEditDistance.scala:371)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:370)
+	at scala.meta.internal.metals.Buffers.tokenEditDistance(Buffers.scala:30)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.codeLenses(RunTestCodeLens.scala:62)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$3(CodeLensProvider.scala:26)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$2(CodeLensProvider.scala:26)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:24)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$2(MetalsLanguageServer.scala:1744)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$1(MetalsLanguageServer.scala:1742)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+[0m
+2022.12.13 20:02:21 WARN  Cannot tokenize Java file file:///home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/HtmlButton.javaorg.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1564)
+	at scala.meta.internal.parsing.JavaTokens$.loop$1(JavaTokens.scala:71)
+	at scala.meta.internal.parsing.JavaTokens$.$anonfun$tokenize$1(JavaTokens.scala:75)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.parsing.JavaTokens$.tokenize(JavaTokens.scala:35)
+	at scala.meta.internal.parsing.TokenEditDistance$.$anonfun$apply$1(TokenEditDistance.scala:371)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:370)
+	at scala.meta.internal.metals.Buffers.tokenEditDistance(Buffers.scala:30)
+	at scala.meta.internal.metals.codelenses.SuperMethodCodeLens.codeLenses(SuperMethodCodeLens.scala:36)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$3(CodeLensProvider.scala:26)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$2(CodeLensProvider.scala:26)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:24)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$2(MetalsLanguageServer.scala:1744)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$1(MetalsLanguageServer.scala:1742)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+[0m
+2022.12.13 20:02:21 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/HtmlButton.java[0m
+2022.12.13 20:02:24 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/HtmlButton.java[0m
+2022.12.13 20:02:25 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/HtmlButton.java[0m
+2022.12.13 20:02:30 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/HtmlButton.java[0m
+2022.12.13 20:02:33 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/HtmlButton.java[0m
+2022.12.13 20:02:37 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/HtmlButton.java[0m
+Dec 13, 2022 8:02:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 442
+2022.12.13 20:02:40 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/HtmlButton.java[0m
+2022.12.13 20:02:42 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/HtmlButton.java[0m
+2022.12.13 20:02:54 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/WindowsButton.java[0m
+2022.12.13 20:02:55 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/WindowsButton.java[0m
+Dec 13, 2022 8:02:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 467
+2022.12.13 20:03:05 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/WindowsButton.java[0m
+2022.12.13 20:03:06 WARN  Running javac-semanticdb failed for file:///home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/WindowsButton.java. Output:
+/home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/WindowsButton.java:3: error: illegal start of type
+public class WindowsButton implements  {
+                                       ^
+1 error[0m
+2022.12.13 20:03:06 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/WindowsButton.java[0m
+2022.12.13 20:03:07 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/WindowsButton.java[0m
+2022.12.13 20:03:17 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/WindowsButton.java[0m
+2022.12.13 20:20:23 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/WindowsButton.java[0m
+Dec 13, 2022 8:20:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 546
+2022.12.13 20:20:25 INFO  time: code lens generation in 1.22s[0m
+2022.12.13 20:20:26 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/WindowsButton.java[0m
+2022.12.13 20:20:27 WARN  Running javac-semanticdb failed for file:///home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/WindowsButton.java. Output:
+/home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/WindowsButton.java:8: error: illegal start of type
+    @Override
+    ^
+/home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/WindowsButton.java:8: error: <identifier> expected
+    @Override
+             ^
+2 errors[0m
+2022.12.13 20:20:28 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/WindowsButton.java[0m
+2022.12.13 20:20:29 WARN  Running javac-semanticdb failed for file:///home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/WindowsButton.java. Output:
+/home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/WindowsButton.java:10: error: illegal start of type
+    @Override
+    ^
+/home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/WindowsButton.java:10: error: ';' expected
+    @Override
+             ^
+2 errors[0m
+2022.12.13 20:20:30 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/WindowsButton.java[0m
+2022.12.13 20:20:31 WARN  Running javac-semanticdb failed for file:///home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/WindowsButton.java. Output:
+/home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/WindowsButton.java:11: error: illegal start of expression
+    public void render() {
+    ^
+/home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/WindowsButton.java:10: error: ';' expected
+    @Override
+             ^
+2 errors[0m
+Dec 13, 2022 8:20:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 579
+2022.12.13 20:20:33 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/WindowsButton.java[0m
+2022.12.13 20:20:43 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/WindowsButton.java[0m
+2022.12.13 20:20:44 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/WindowsButton.java[0m
+2022.12.13 20:20:45 WARN  Running javac-semanticdb failed for file:///home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/WindowsButton.java. Output:
+/home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/WindowsButton.java:13: error: illegal start of type
+    @Override
+    ^
+/home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/WindowsButton.java:13: error: <identifier> expected
+    @Override
+             ^
+2 errors[0m
+2022.12.13 20:20:45 INFO  time: code lens generation in 1.69s[0m
+2022.12.13 20:20:47 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/WindowsButton.java[0m
+2022.12.13 20:20:48 WARN  Running javac-semanticdb failed for file:///home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/WindowsButton.java. Output:
+/home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/WindowsButton.java:14: error: illegal start of type
+    @Override
+    ^
+/home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/WindowsButton.java:14: error: <identifier> expected
+    @Override
+             ^
+2 errors[0m
+Dec 13, 2022 8:20:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 674
+2022.12.13 20:20:50 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/WindowsButton.java[0m
+2022.12.13 20:21:03 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/WindowsButton.java[0m
+2022.12.13 20:21:04 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/WindowsButton.java[0m
+2022.12.13 20:21:05 INFO  time: code lens generation in 1.38s[0m
+2022.12.13 20:21:13 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/WindowsButton.java[0m
+2022.12.13 20:21:14 INFO  time: code lens generation in 1.06s[0m
+Dec 13, 2022 8:21:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 744
+Dec 13, 2022 8:21:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 745
+2022.12.13 20:21:24 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/WindowsButton.java[0m
+2022.12.13 20:21:26 INFO  time: code lens generation in 1.16s[0m
+2022.12.13 20:21:31 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/FlowLayout.java[0m
+2022.12.13 20:21:31 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/FlowLayout.java[0m
+2022.12.13 20:21:40 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/WindowsButton.java[0m
+2022.12.13 20:22:10 WARN  no build target for: /home/philip/rust-programming/design_patterns/factory_java/src/main/java/com/example/button/WindowsButton.java[0m

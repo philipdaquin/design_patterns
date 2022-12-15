@@ -8,5 +8,6 @@ members = [
 
 
 
-    "behaviour/state"
+    "behaviour/state",
+    "behaviour/decorator"
 ]

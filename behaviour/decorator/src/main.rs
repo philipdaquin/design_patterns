@@ -1,7 +1,7 @@
 
 
 // The base component that can be altered by decorators
-
+mod decorator;
 use std::rc::Rc;
 
 #[derive(Debug)]

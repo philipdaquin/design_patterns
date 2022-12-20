@@ -2,7 +2,10 @@
 
 // The base component that can be altered by decorators
 mod decorator;
+mod traits_combination;
 use std::rc::Rc;
+
+use crate::traits_combination::call_functions;
 
 #[derive(Debug)]
 struct CoffeeObject { 
@@ -61,4 +64,7 @@ fn main() {
     let milk = MilkObject::new(coffee.clone());
     Client::print_client(&milk);
     println!("Hello, world! {:#?}", coffee.clone());
+
+    call_functions();
+
 }

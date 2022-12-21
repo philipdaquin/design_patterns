@@ -9,5 +9,8 @@ members = [
 
 
     "behaviour/state",
-    "behaviour/decorator"
+    
+    
+    
+    "structural/decorator"
 ]

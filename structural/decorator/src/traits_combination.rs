@@ -54,8 +54,11 @@ impl C for D {
  */
 pub fn call_functions() { 
 
-    let k: &dyn A  = &K;
+    let k:( &dyn A, &dyn B ) = (&K, &K);
 
+    k.0.a();
+
+    // let b: &dyn A + B = &K;
 
     let c = &D;
     c.a();

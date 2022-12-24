@@ -5,6 +5,7 @@ members = [
     "creational/factory",
     "creational/abstract_factory",
     "creational/singleton",
+    "creational/prototype",
 
 
 

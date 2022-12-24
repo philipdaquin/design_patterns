@@ -23,5 +23,6 @@ fn main() {
     let prototype = ConcretePrototype::new("Hello".to_string());
     let clone = prototype.clone();
         
+    println!("{prototype:?}");
     println!("Hello, world! {:?}", clone);
 }

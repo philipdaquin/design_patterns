@@ -1,3 +1,5 @@
+use shape::DrawingApi;
+
 use crate::shape::{CircleShape, DrawingApi1};
 
 /**
@@ -22,6 +24,7 @@ mod shape;
 fn main() {
     let drawing = Box::new(DrawingApi1);
     let mut circle = CircleShape::new(1.2, 2.4, 29.2, drawing);
-
+    circle.draw();
+    
     println!("Hello, world!");
 }

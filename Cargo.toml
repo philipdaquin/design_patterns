@@ -11,6 +11,7 @@ members = [
 
     "behaviour/state",
     "behaviour/flyweight",
+    "behaviour/chain_of_responsibility",
     
     
     

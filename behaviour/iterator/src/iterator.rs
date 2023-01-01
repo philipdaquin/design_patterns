@@ -139,6 +139,14 @@ impl SocialSpammer {
         Facebook
     }
 
+    /// Sized: is used to at a type with known compile time 
+    /// T may or may not be Sized 
+    /// Because the type might not be Sized we need to use it behind some kind of 
+    /// pointer
+    fn advance_type<T: ?Sized>(new_type: &T) { 
+        todo!()
+    }
+
 
 }
 

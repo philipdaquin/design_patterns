@@ -13,6 +13,7 @@ members = [
     "behaviour/flyweight",
     "behaviour/chain_of_responsibility",
     "behaviour/mediator",
+    "behaviour/iterator",
     
     
     

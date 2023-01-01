@@ -1,5 +1,6 @@
 
-
+use std::fmt::Display;
+use std::fmt::Debug;
 // The common interface for all iterators
 trait ProfileIterator {
     fn get_next(&mut self) -> Option<Profile>;
@@ -111,6 +112,34 @@ impl SocialSpammer {
             }
         }
     }
+
+
+    /**
+     * 
+     * Sample code to be more familiar with Rust Traits 
+     * 
+     */
+
+    fn send_another(social: &(impl SocialNetwork + Display)) { 
+        todo!()
+    }
+    fn notify<T: SocialNetwork + Display>(social: &T) { 
+        todo!()
+    }
+
+    fn some_function<T, U>(t: &T, u: &U) -> i32 
+        where T: Display + Clone, 
+            U: Clone + Debug 
+    {
+            todo!()
+    }
+
+    fn return_social_type() -> impl SocialNetwork { 
+        // Facebook implements SocialNetwork Trait
+        Facebook
+    }
+
+
 }
 
 struct Application {

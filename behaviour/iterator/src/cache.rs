@@ -120,7 +120,5 @@ impl<'a, V, K, C> CachedValue<'a, V, K, C>
             }   
             _ => None
         }
-
     }
-
 }

@@ -33,7 +33,20 @@ fn main() {
     println!("CURRENT STATES {:#?}", undo_manager1.caretakers);
 
 
-    // Print a snapshpt of the current state
+    // Print a snapshot of the current state
+    let mut originator5 = RefCell::new(
+        OriginatorA { state: "StasdfdsfsdfteC".to_string() }
+    );
+    let mut borrowed = originator5.borrow_mut();
+    let mut mem = borrowed.create_memento();
+    let state = mem.get_state();
+    borrowed.restore(mem);
+    undo_manager1.save_state(&mut borrowed);
+
+    println!("MEMENTO {:#?}", undo_manager1.caretakers);
+    
+
+   
 
 
     undo_manager1.undo();

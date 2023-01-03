@@ -14,6 +14,7 @@ members = [
     "behaviour/chain_of_responsibility",
     "behaviour/mediator",
     "behaviour/iterator",
+    "behaviour/memento",
     
     
     

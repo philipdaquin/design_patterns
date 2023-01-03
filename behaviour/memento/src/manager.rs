@@ -1,9 +1,13 @@
+
+/// Memnto object that represents the state of the `Originator`
 pub trait Memento { 
     type State;
 
     fn get_state(&self) -> &Self::State;
 }
 
+/// Originator produce snapshots of its own state, as well as restore its state from snapshots 
+/// when needed
 pub trait Originator { 
     type State;
     type Memento: Memento<State = Self::State>;
@@ -12,6 +16,12 @@ pub trait Originator {
     fn restore(&mut self, memento: Self::Memento);
 }
 
+///
+///     The `CareTaker` provides methods that allow you to save the current state
+///     of the `Originator` by creating a new `Memento` object and storing it,
+///     and restore the state of the `Originator` by using the stored `Memento` object to 
+///     to restore the state of the `Originator`
+/// 
 ///     We need to ensure that the `Originator` is not dropped while 
 ///     the  `CareTaker` still holds a reference to it 
 /// 

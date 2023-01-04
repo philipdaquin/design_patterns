@@ -15,6 +15,7 @@ members = [
     "behaviour/mediator",
     "behaviour/iterator",
     "behaviour/memento",
+    "behaviour/strategy",
     
     
     

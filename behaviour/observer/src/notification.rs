@@ -50,6 +50,7 @@ impl<T> EventManager<T>
     }
 }
 
+
 impl<T> Publisher<T> for EventManager<T> 
     where T: Debug + Eq + PartialEq + Clone {
 
@@ -70,9 +71,9 @@ impl<T> Publisher<T> for EventManager<T>
 
     fn notify(&mut self) {
 
-        // for o in self.listeners { 
-        //     o.update(self.state.clone())
-        // }
+        for o in &mut self.listeners { 
+            o.update(self.state.clone())
+        }
         todo!()
     }
 }

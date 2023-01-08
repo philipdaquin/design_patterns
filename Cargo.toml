@@ -18,6 +18,7 @@ members = [
     "behaviour/strategy",
     "behaviour/visitor",
     "behaviour/command",
+	"behaviour/observer",
 
     
     

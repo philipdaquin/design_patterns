@@ -70,11 +70,9 @@ impl<T> Publisher<T> for EventManager<T>
     
 
     fn notify(&mut self) {
-
         for o in &mut self.listeners { 
             o.update(self.state.clone())
         }
-        todo!()
     }
 }
 

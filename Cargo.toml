@@ -26,5 +26,6 @@ members = [
     "structural/decorator",
     "structural/adapter",
     "structural/facade",
-    "structural/bridge"
+    "structural/bridge",
+    "structural/composite"
 ]

@@ -19,7 +19,7 @@ members = [
     "behaviour/visitor",
     "behaviour/command",
 	"behaviour/observer",
-
+	"behaviour/template_method",
     
     
     

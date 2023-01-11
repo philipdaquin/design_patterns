@@ -20,8 +20,9 @@ members = [
     "behaviour/command",
 	"behaviour/observer",
 	"behaviour/template_method",
+	
     
-    
+    "structural/proxy",
     
     "structural/decorator",
     "structural/adapter",

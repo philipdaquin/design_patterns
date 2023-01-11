@@ -659,3 +659,5 @@ WARNING: Unmatched cancel notification for request id 1272
 2023.01.10 17:12:25 WARN  no build target for: /home/philip/rust-programming/design_patterns/behaviour/template_method_java/src/main/java/com/example/App.java[0m
 2023.01.10 17:20:41 WARN  no build target for: /home/philip/rust-programming/design_patterns/behaviour/template_method_java/src/main/java/com/example/App.java[0m
 2023.01.10 17:21:18 WARN  no build target for: /home/philip/rust-programming/design_patterns/behaviour/template_method_java/src/main/java/com/example/App.java[0m
+2023.01.10 17:48:00 INFO  shutting down Metals[0m
+2023.01.10 17:48:00

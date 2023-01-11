@@ -19,7 +19,7 @@ use crate::server::RemoteProxy;
 ///     and result caching wihtout the cleint or the real database object even knownign 
 ///  
 
-
+mod database;
 mod server;
 fn main() {
     

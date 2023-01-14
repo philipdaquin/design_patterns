@@ -33,6 +33,22 @@ class Singleton {
 
 
 int main() {
+    
+    int s = 10;
+
+   int* y = &s;
+
+    /**
+     *  let mut x = 10;
+     *  let mut y = &mut x;
+     *  
+     *  *y = 20;
+     * 
+    */
+
+
+    std::cout << *y;
+
 
     return 0;
 }

@@ -9,7 +9,7 @@ type Singleton struct {
 	data string 
 }
 
-// mutext is used to ensure that only one goroutine can exevute the code 
+// mutex is used to ensure that only one goroutine can execute the code 
 var lock = &sync.Mutex{}
 var instance *Singleton
 

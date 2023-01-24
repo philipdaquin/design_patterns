@@ -59,4 +59,14 @@ func main() {
 	carFactor := &CarFactory{}
 	car := carFactor.CreateVehicle()
 	car.GetType()
+
+	motorFactor := &MotorCylceFactory{}
+	motorcyel := motorFactor.CreateVehicle()
+	motorcyel.GetType()
+
 }
+
+
+
+
+

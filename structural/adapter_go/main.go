@@ -2,7 +2,11 @@ package main
 
 /*
 	Adapter
-	Allows objects with incompatible interface to collaborate 
+	- Allows objects with incompatible interface to collaborate 
+
+	The adapter pattern is useful when you have an existing class that cannot be modified,
+	but you need to use it in a new context that requires a different interface
+
 */
 
 // Target interface defines the interface that client expects 

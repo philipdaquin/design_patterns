@@ -5,10 +5,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.example</groupId>
-  <artifactId>product_review_system</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <artifactId>product_review_design</artifactId>
+  <version>1</version>
 
-  <name>product_review_system</name>
+  <name>product_review_design</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 

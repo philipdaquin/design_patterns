@@ -1,0 +1,27 @@
+application { 
+    config { 
+        baseName productReviewSystem
+        packageName com.demo
+        buildTool maven
+    }
+    entities *
+}
+
+entity User { 
+    firstName String
+    lastName String
+    email String
+    secondaryEmail String
+    password String
+
+    review Review 
+}
+
+enum ReviewType {
+    GENERAL, FEATURE
+}
+
+entity Review { 
+    id Integer
+
+}

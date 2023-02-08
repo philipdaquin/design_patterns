@@ -24,6 +24,19 @@ type State interface {
 type ConcreteStateA struct {}
 
 func (self ConcreteStateA) Handle(c Context) { 
+		fmt.Println("ConcreteStateB handles the request.")
+	fmt.Println("ConcreteStateB handles the request.")
+
+		fmt.Println("ConcreteStateB handles the request.")
+	fmt.Println("ConcreteStateB handles the request.")
+
+		fmt.Println("ConcreteStateB handles the request.")
+	fmt.Println("ConcreteStateB handles the request.")
+	fmt.Println("ConcreteStateB handles the request.")
+	fmt.Println("ConcreteStateB handles the request.")
+	fmt.Println("ConcreteStateB handles the request.")
+	fmt.Println("ConcreteStateB handles the request.")
+
 	c.Transitition(new(ConcreteStateA))
 }
 

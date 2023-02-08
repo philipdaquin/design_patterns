@@ -7,21 +7,97 @@ application {
     entities *
 }
 
+
+entity Product { 
+    productId Long
+    name String
+    description String 
+    price BigDecimal min(0)
+    image ImageBlob
+}
+
+entity Review { 
+    id Long
+    productId Long
+    rating Integer
+    title String
+    text String
+    userId String
+    reviewDate LocalDate
+}
+
 entity User { 
+    userId String
+    firstName String
+}
+
+entity UserProfile { 
+    userId String
     firstName String
     lastName String
     email String
     secondaryEmail String
     password String
-
-    review Review 
 }
 
-enum ReviewType {
-    GENERAL, FEATURE
+entity UserEmailNotification {
+    emailId Long
+    userId Long
+    messageId Long
+    message String
+    subject String
+    notifiedOn Instant
+    notificationState NotificationState
+}   
+enum NotificationState { 
+    SUCCESS
+    FAILED
 }
 
-entity Review { 
+entity Summary {
+    productId Long
+    totalStars Integer
+    averageRating Integer
+    totalOneStars Integer
+    totalTwoStars Integer
+    totalThreeStars Integer
+    totalFourStars Integer
+    totalFiveStars Integer
+}
+
+entity ReviewSummary
+entity FeatureSummary
+
+
+entity Feature { 
+    productId Long
     id Integer
-
+    featureName String
+    title String
+    text String
+    rating Integer
 }
+
+entity Meta { 
+    reviewId Long
+    images ImageBlob
+    imagePath String
+}
+
+
+relationship OneToMany { 
+    User{reviews} to Review
+    Product{reviews required} to Review
+
+    Review{features} to Feature
+    Review{metas} to Meta
+}
+
+relationship OneToOne { 
+    Summary to ReviewSummary
+    Summary to FeatureSummary
+    User{userProfile required} to UserProfile 
+    Summary{productId required} to Product
+    User to UserEmailNotification
+}
+

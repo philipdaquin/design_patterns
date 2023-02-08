@@ -1,7 +1,7 @@
 use std::collections::HashMap;
 
 trait Mediator {
-    fn register(&mut self, colleague: Box<dyn Colleague>); 
+    fn register(&mut self, colleague: T) where T: Colleague; 
     fn send(&self, sender: &str, message: &str, recipient: Option<&str>);
 }
 
@@ -35,7 +35,7 @@ impl Mediator for ChatRoom {
         }
     }
 }
-
+#[derive(Clone)]
 struct User { 
     name: String, 
     mediator: Box<dyn Mediator>
@@ -47,7 +47,7 @@ impl Colleague for User {
 
         mediator.register(Box::new(User { 
             name: name.to_string(),
-            mediator: *Box::to_owned(mediator)
+            mediator: mediator
         }));
 
         User { 

@@ -1,10 +1,10 @@
 cmake_minimum_required(VERSION 3.0.0)
-project(mediator VERSION 0.1.0)
+project(mediator_cpp VERSION 0.1.0)
 
 include(CTest)
 enable_testing()
 
-add_executable(mediator main.cpp)
+add_executable(mediator_cpp main.cpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})

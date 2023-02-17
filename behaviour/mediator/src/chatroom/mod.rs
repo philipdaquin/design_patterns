@@ -1,26 +1,27 @@
 use std::collections::HashMap;
 
 trait Mediator {
-    fn register(&mut self, colleague: T) where T: Colleague; 
+    fn register(&mut self, colleague: User);
     fn send(&self, sender: &str, message: &str, recipient: Option<&str>);
 }
 
 trait Colleague { 
-    fn new(name: &str, mediator: Box<dyn Mediator>) -> Self where Self: Sized;
+    fn new(name: &str, mediator: ChatRoom) -> Self where Self: Sized;
     fn get_name(&self) -> &str;
     fn send(&self, message: &str, recipient: Option<&str>);
     fn receive(&self, sender: &str, message: &str);
 }
 
+#[derive(Default, Clone)]
 struct ChatRoom { 
-    users: HashMap<String, Box<dyn Colleague>>
+    users: HashMap<String, User>
 }
 
 
 impl Mediator for ChatRoom {
-    fn register(&mut self, colleague: Box<dyn Colleague>) {
-        self.users.insert(colleague.get_name().to_string(), colleague);
-    }
+    // fn register(&mut self, colleague: C) {
+    //     self.users.insert(colleague.get_name().to_string(), colleague);
+    // }
 
     fn send(&self, sender: &str, message: &str, recipient: Option<&str>) {
         
@@ -34,25 +35,30 @@ impl Mediator for ChatRoom {
             }
         }
     }
+
+    fn register(&mut self, colleague: User) {
+        self.users.insert(colleague.get_name().to_string(), colleague);
+
+    }
 }
 #[derive(Clone)]
 struct User { 
     name: String, 
-    mediator: Box<dyn Mediator>
+    mediator: ChatRoom
 }
 
-impl Colleague for User {
-    fn new(name: &str, mut mediator: Box<dyn Mediator>) -> Self where Self: Sized {
+impl Colleague for User  {
+    fn new(name: &str, mut mediator: ChatRoom) -> Self where Self: Sized {
+        let mut chatroom = ChatRoom::default();
 
-
-        mediator.register(Box::new(User { 
+        mediator.register(User { 
             name: name.to_string(),
-            mediator: mediator
-        }));
-
+            mediator: mediator.clone()
+        });
+        
         User { 
             name: name.to_string(),
-            mediator
+            mediator: chatroom
         }
     }
 

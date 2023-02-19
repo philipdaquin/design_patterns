@@ -1,0 +1,4 @@
+/.metals
+/.vscode
+./target 
+./src/main/java/com/example/*.class/

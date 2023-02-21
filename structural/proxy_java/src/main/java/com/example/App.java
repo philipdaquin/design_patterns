@@ -11,10 +11,9 @@ package com.example;
  * but the proxy objects handles the actual interaction with the real objects 
  *
  */
-public class App 
-{
-    public static void main( String[] args )
-    {
+public class App {
+    
+    public static void main( String[] args ) {
         System.out.println( "Hello World!" );
     }
 }

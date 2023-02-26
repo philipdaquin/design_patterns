@@ -19,16 +19,14 @@ public class App {
         Originator editor = new Originator();
         CareTaker history = new CareTaker();
 
-        editor.setText("💽💽");
+        editor.setText("💽asdsadasdasdasdasdasdasdasd💽");
         history.save(editor);
+        System.out.println(editor.getText());
 
         editor.setText("🚀🚀🚀🚀🚀");
         history.save(editor);
 
-        System.out.println(editor.getText());
-
         history.undo(editor);
-
         System.out.println(editor.getText());
 
     }

@@ -1,0 +1,9 @@
+application { 
+    config { 
+        baseName flightBookingSystemManagement
+        packageName com.demo
+        buildTool maven
+    }
+    entities *
+}
+

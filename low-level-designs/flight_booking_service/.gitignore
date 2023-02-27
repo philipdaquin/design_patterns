@@ -20,7 +20,8 @@ target/
 *.ipr
 
 *.mvn
-
+*/.metals
+metals.*
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/

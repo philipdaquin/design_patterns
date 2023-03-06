@@ -44,7 +44,6 @@ class Context {
     void request() { 
         state -> handle();
     }
-
 };
 
 

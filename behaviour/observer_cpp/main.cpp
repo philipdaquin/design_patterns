@@ -11,7 +11,7 @@ using namespace std;
 
 class Observer { 
     public:
-    virtual void update(int value) = 0;
+        virtual void update(int value) = 0;
 };
 
 class Subject { 
@@ -19,20 +19,20 @@ class Subject {
     int value;
 
     public:
-    void attach(Observer* observer) { 
-        observers.push_back(observer);
-    }
-
-    void notify() {
-        for (Observer* ob : observers) { 
-            ob->update(value);
-            cout << "Received update with value:"<< value << endl;
+        void attach(Observer* observer) { 
+            observers.push_back(observer);
         }
-    } 
-    void setValue(int value) { 
-        this->value = value;
-        notify();
-    }
+
+        void notify() {
+            for (Observer* ob : observers) { 
+                ob->update(value);
+                cout << "Received update with value:"<< value << endl;
+            }
+        } 
+        void setValue(int value) { 
+            this->value = value;
+            notify();
+        }
 
 };
 

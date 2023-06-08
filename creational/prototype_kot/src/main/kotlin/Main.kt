@@ -8,11 +8,9 @@
 *  - Concrete Prototype
 *  - Client
 * */
-
 interface Prototype {
     fun clone(): Prototype
 }
-
 class ConcretePrototype(private val data: String) : Prototype {
     override fun clone(): Prototype {
         return ConcretePrototype(data)
@@ -22,9 +20,6 @@ class ConcretePrototype(private val data: String) : Prototype {
     }
 }
 
-
-
-
 fun main(args: Array<String>) {
     val prototype = ConcretePrototype("DATA")
 
@@ -33,29 +28,3 @@ fun main(args: Array<String>) {
     prototype.printData()
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

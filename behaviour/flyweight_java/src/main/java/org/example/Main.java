@@ -9,6 +9,10 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        TextEditor editor = new TextEditor();
+        editor.displayText("Hello World");
+
+
+        editor.displayText("Flyweighyt pattern ");
     }
 }

@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Button;
 
 public interface Button {
     void render();

@@ -12,6 +12,10 @@ public class Flight {
 
 
 
+
+
+
+
     public List<FlightInstance> instances;
 
     public List<FlightInstance> getInstances() {

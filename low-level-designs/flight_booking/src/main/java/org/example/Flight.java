@@ -8,7 +8,7 @@ public class Flight {
     public Airport arrival;
     public Integer flightDuration;
     public Boolean cancelled;
-    public FlightSchedule schedule;
+    public FlightSchedule schedule = null;
 
 
 
@@ -22,9 +22,16 @@ public class Flight {
         return instances;
     }
     public Boolean cancelFlight() {
+
         return cancelled;
     }
+    public Boolean addFlightSchedule() {
 
-    public Boolean
+        if (schedule == null) {
+            this.schedule = new FlightSchedule();
+            return true;
+        }
+        return false;
+    }
 
 }

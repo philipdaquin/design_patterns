@@ -9,12 +9,12 @@ class GUIFactory {
 };
 
 class MacOSFactory:  public GUIFactory { 
-    void createButton() { 
-        return new MacOSButton();
+    Button createButton() { 
+        return MacOSButton();
     }
 
-    void createCheckbox() { 
-        void new MacOSCheckbox();
+    Button createCheckbox() { 
+        return MacOSCheckbox();
     }
 };
 

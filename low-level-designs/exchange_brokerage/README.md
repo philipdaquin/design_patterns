@@ -30,6 +30,27 @@ System should be able:
 - Fetch stock quotes from stock exchange 
 
 
-** Classes 
+**Classes
+*WatchList
+*Account 
+*StockExchange 
+  - The stock exchange will fetch all stocks and their current prices from the stock exchange 
+  - Assign a singleton class encapsulating all interactions with the stock exchange 
+*Stock
+*StockInventory
+*Order
+    - Multiple kinds of trading orders 
+      - Market 
+      - Limit
+      - StopLimit
+      - StopLoss
+- OrderPart
+- StockLot
+  - Any member can buy multiple lots of the same stock at different times 
+- StockPosition
+- Statement 
+- DepositMoney && WithDrawMoney
+- Notification 
+
 
 

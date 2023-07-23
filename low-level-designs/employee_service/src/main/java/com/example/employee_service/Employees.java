@@ -6,17 +6,18 @@ import java.util.List;
 public class Employees {
     public List<Employee> employees;
 
-    public Employees() {
-        employees = new ArrayList<>();
-    }
-
-
     public Boolean addEmployee(Employee employee) { 
+
         employees.add(employee);
         return true;
     }
 
     public List<Employee> getEmployees() {
+        if (employees == null) { 
+        employees = new ArrayList<>();
+        }
+
+
         return employees;
     }
 

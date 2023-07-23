@@ -3,6 +3,9 @@ package com.example.employee_service;
 import java.util.ArrayList;
 import java.util.List;
 
+import lombok.Builder;
+import lombok.Getter;
+
 public class Employees {
     public List<Employee> employees;
 
@@ -18,6 +21,12 @@ public class Employees {
         }
 
 
+        return employees;
+    }
+
+
+    public List<Employee> setEmployees(List<Employee> em) { 
+        this.employees = em;
         return employees;
     }
 

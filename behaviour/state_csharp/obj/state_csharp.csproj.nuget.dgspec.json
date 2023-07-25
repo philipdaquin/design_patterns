@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/philip/rust-programming/design_patterns/behaviour/state_csharp/state_csharp.csproj": {}
+  },
+  "projects": {
+    "/home/philip/rust-programming/design_patterns/behaviour/state_csharp/state_csharp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/philip/rust-programming/design_patterns/behaviour/state_csharp/state_csharp.csproj",
+        "projectName": "state_csharp",
+        "projectPath": "/home/philip/rust-programming/design_patterns/behaviour/state_csharp/state_csharp.csproj",
+        "packagesPath": "/home/philip/.nuget/packages/",
+        "outputPath": "/home/philip/rust-programming/design_patterns/behaviour/state_csharp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/philip/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.412/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

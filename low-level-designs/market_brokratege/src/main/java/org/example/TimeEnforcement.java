@@ -1,8 +1,9 @@
 package org.example;
 
 public enum TimeEnforcement {
-    GOODTILCANCELLLED,
+    GOOD_TILL_CANCELLED,
     FILL_OR_KILL,
-    IMMEDIATE_OR_CANCELLED
-
+    IMMEDIATE_OR_CANCELLED,
+    OnTheOpen,
+    OnTheClose
 }

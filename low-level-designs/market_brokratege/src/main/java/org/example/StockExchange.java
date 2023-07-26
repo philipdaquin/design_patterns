@@ -1,6 +1,8 @@
 package org.example;
 
+import org.example.enums.OrderStatus;
 import org.example.enums.Status;
+import org.example.order.Order;
 
 public final class StockExchange {
     private static volatile StockExchange exchangeInstance;
@@ -8,6 +10,7 @@ public final class StockExchange {
 
     public StockExchange() {}
 
+    // Provide access to the singleton instance
     public static StockExchange getInstance() {
         StockExchange instance = exchangeInstance;
 
@@ -22,7 +25,12 @@ public final class StockExchange {
 
     }
 
-    public Status placeOrder() {
-        return Status.EMPTY_POSITION;
+    public OrderStatus placeOrder(Order order) {
+        var ret = getInstance().submitOrder(order);
+        return ret;
+    }
+
+    private OrderStatus submitOrder(Order order) {
+        return OrderStatus.OPEN;
     }
 }

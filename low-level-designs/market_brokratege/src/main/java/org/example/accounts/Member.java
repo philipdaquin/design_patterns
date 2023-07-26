@@ -19,4 +19,7 @@ public class Member extends Account {
     public Member(Integer id, String password, String name, Address address, AccountStatus status, String email, String phone) {
         super(id, password, name, address, status, email, phone);
     }
+
+
+
 }

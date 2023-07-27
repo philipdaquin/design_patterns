@@ -15,7 +15,7 @@ public abstract class Order {
     private LocalDateTime createdAt;
     private Map<Integer, OrderParts> parts;
 
-    public Order(int id) {
+    public Order(int id, TimeEnforcement enforcement) {
         this.orderId = id;
         this.orderType = OrderType.BUY;
         this.orderStatus = OrderStatus.OPEN;
@@ -24,10 +24,26 @@ public abstract class Order {
         this.parts = new HashMap<>();
     }
 
+    public int getId() {
+        return orderId;
+    }
+
+
     public OrderStatus setStatus(OrderStatus status) {
         this.orderStatus = status;
         return orderStatus;
     }
+
+    public void setOrderType(OrderType type) {
+        this.orderType = type;
+    }
+    public void setEnforcement(TimeEnforcement enforcement) {
+        this.timeEnforcement = enforcement;
+    }
+
+
+
+
 
     public boolean addInOrder() {
         return true;

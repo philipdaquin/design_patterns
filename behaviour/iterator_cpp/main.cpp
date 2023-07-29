@@ -15,6 +15,8 @@ template<typename T> class VectorIterator : public Iterator<T> {
     private:
         int data;
         size_t index;
+
+        
     public: 
         VectorIterator(vector<T>& data_) : data(data_), index(0) {} 
 

@@ -9,10 +9,28 @@
 
 
 */
+
+class PizzaStore { 
+    private PizzaFactory factory;
+    public PizzaStore(PizzaFactory newFactory) { 
+        this.factory = newFactory;
+    }
+    public void OrderPizza() { 
+        var pizza = factory.CreateIndian();
+        pizza.Prepare();
+        pizza.Bake();
+        pizza.Cut();
+        pizza.Box();
+    }
+}
+
+
 namespace Abstract { 
     class Program { 
         static void Main() { 
-            Console.WriteLine("Hello word ");
+            var factory = new NycFactory();
+            var store = new PizzaStore(factory);
+            store.OrderPizza();
         }
     }
 }

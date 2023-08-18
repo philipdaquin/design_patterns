@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/prototype_cpp.dir/main.cpp.o -o prototype_cpp 

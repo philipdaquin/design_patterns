@@ -42,10 +42,10 @@ public class Member extends Account {
     ) {
 
         // If the stock is not in the current Stock Position
-        if (!stockPositions.containsKey(stockId)) {
+        // Check if there's enough stock to sell  if (!stockPositions.containsKey(stockId)) {
             return Status.EMPTY_POSITION;
         }
-        // Check if there's enough stock to sell
+
         if (!(stockPositions.get(stockId).quantity < quantity)) {
             return Status.INSUFFICIENT_QUANTITY;
         }
